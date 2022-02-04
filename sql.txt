@@ -1,0 +1,50 @@
+\*
+             Author: Shivam Singh
+             DOC : 12|01|2022
+             Domain: Array Oprations
+*\
+
+
+#include<stdio.h>
+#include<conio.h>
+#define size 10
+void main(){
+
+int i,j,k;
+clrscr();
+printf("Enter the choice of Array\n");
+printf("1-------Single Dimention array");
+printf("2-------Two dimention Array");
+printf("3-------for Exit\n");
+scanf("%d",&type_array);
+
+switch(type_array){
+case 1:printf("You have selected Single-D array");
+       printf("1-------int Array");
+       printf("2-------float Array");
+       printf("3-------character Array");
+       printf("4-------Exit");
+       scanf("%d"&type_1da);
+switch(type_1da){
+case 1: printf("You selected int ID array");
+break;
+case : printf("You selected int ID array");
+break;
+case 1: printf("You selected int ID array");
+break;
+
+}//type of 1D array switch        
+break;
+
+case 2:printf("You have selected 2-D array");
+break;
+       
+case 3: exit(0);
+break;
+
+default : printf("You have enter wrong choice");
+}//type array switch
+ 
+
+
+}//main body
